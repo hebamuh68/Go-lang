@@ -1,0 +1,53 @@
+https://youtu.be/Nv8J_Ruc280
+
+
+
+
+package main
+
+import (
+	"fmt"
+)
+
+func main(){
+	
+	var animal, info string
+
+	for{
+
+		fmt.Printf("> ")
+		fmt.Scanln(&animal, &info)
+
+		if info == "eat"{
+			if animal == "cow"{
+				Eat(Cow)
+			} else if animal == "bird"{
+				Eat(Bird)
+			} else{
+				Eat(Snake)
+			}
+
+		} else if info == "move" {
+			if animal == "cow"{
+				Move(Cow)
+			} else if animal == "bird"{
+				Move(Bird)
+			} else{
+				Move(Snake)
+			}
+
+
+		} else {
+			if animal == "cow"{
+				Speak(Cow)
+			} else if animal == "bird"{
+				Speak(Bird)
+			} else{
+				Speak(Snake)
+			}
+		}
+
+		}
+	
+	
+}
