@@ -12,3 +12,14 @@
 
 Tutorials:
 - Methods: https://www.digitalocean.com/community/tutorials/defining-methods-in-go
+- Input:
+	- https://poe.com/s/AgIeTxD6AmFjTcjdC070
+	- https://poe.com/s/VGDF6Cu4cyJnPqWDkN3s
+- Comparison:
+	- https://poe.com/s/i2ljP8FEpBoJHN0ZjWP0
+
+- Split string:
+	- https://poe.com/s/iv3U4aC5PKvqkAKkDGok
+- Command line:
+	- https://poe.com/s/zprGBfPwzNdgwr9anFgO
+	- https://poe.com/s/5gcWOtdYwxczrogljMhD
