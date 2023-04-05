@@ -8,7 +8,9 @@
 - COURSE 2) Functions, Methods, and Interfaces in Go
 - COURSE 3) Concurrency in Go
 
-## Project: Command Line Interface (CLI) With Golang From Infosys
+### Project: 
+- Google file system
+- Command Line Interface (CLI) With Golang From Infosys
 
 
 ## Tutorials:
