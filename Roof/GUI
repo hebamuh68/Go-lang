@@ -1,0 +1,17 @@
+There are many resources available online to learn both Qt and Go-GTK. Here are a few suggestions:
+
+Qt:
+
+Qt Documentation: The official Qt documentation is an excellent resource for learning Qt. It provides tutorials, examples, and reference documentation for all the Qt modules.
+
+Qt for Beginners: This tutorial series on YouTube provides a step-by-step guide to building a simple Qt application. It covers topics such as creating windows, using layouts, handling events, and more.
+
+Qt Creator Manual: Qt Creator is the integrated development environment (IDE) for Qt. The Qt Creator manual provides detailed information on how to use the IDE, including how to create and debug applications.
+
+Go-GTK:
+
+Go-GTK Documentation: The official Go-GTK documentation provides a comprehensive guide to using the toolkit. It includes examples, API reference, and tutorials.
+
+Go-GTK Examples: The Go-GTK repository on GitHub includes a variety of examples that demonstrate how to use the toolkit. These examples cover topics such as creating windows, using widgets, and handling events.
+
+Go-GTK Tutorial: This tutorial on the Go-GTK website provides a step-by-step guide to building a simple Go-GTK application. It covers topics such as creating windows, using widgets, and handling events.

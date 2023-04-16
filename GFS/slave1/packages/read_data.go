@@ -2,7 +2,6 @@ package GFS
 
 import (
 	"io/ioutil"
-
 )
 
 func Read_Data(fileName string) string{
