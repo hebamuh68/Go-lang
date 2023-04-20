@@ -13,7 +13,7 @@ func main() {
 
 	//======================================= Create slave
 	fmt.Println("Starting slave...")
-	slave, err := net.Listen("tcp", "127.0.0.1:8088")
+	slave, err := net.Listen("tcp", "127.0.0.1:8099")
 	if err != nil {
 		panic(err)
 	}

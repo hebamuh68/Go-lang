@@ -42,17 +42,14 @@ func main() {
 	receivedData := string(buf[:data])
 	fmt.Println("Data requested: ", receivedData)
 
+	//======================================= Connect the slaves based on requested data
 	if (receivedData == "Grades") {
-
-		//======================================= Connect the slave
 		go GFS.Connect_G_slave(clientAddr)
+
+	} else if (receivedData == "Names") {
+		go GFS.Connect_N_slave(clientAddr)
 	}
 		
 	}
 	
 }
-
-
-
-
-
