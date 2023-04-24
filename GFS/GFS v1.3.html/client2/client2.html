@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Client 2</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <style>
+    #response {
+      white-space: pre-wrap;
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-light bg-warning">
+    <span class="navbar-brand mb-0 h1">Hi, <b>Client 2</b></span>
+  </nav>
+
+  <div class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+
+
+        <form method="POST">
+          <div class="form-group">
+            <label for="requestBody">Select a grade:</label>
+            <select class="form-control" name="requestBody" id="requestBody">
+              <option value="g1">Grade 1</option>
+              <option value="g2">Grade 2</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-warning">Submit</button>
+        </form>
+
+
+        {{if .}}
+        <div class="mt-5">
+          <h3>Response:</h3>
+          <p id="response">{{.}}</p>
+        </div>
+        {{end}}
+
+        
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

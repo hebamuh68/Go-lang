@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html> 
+<body>
+
+<h2>Insert Student</h2>
+
+<form action="/insert" method="POST">
+  <label for="ID">ID:</label><br>
+  <input type="number" id="nameID" name="ID" value=""><br>
+
+  <label for="priceID">First Name:</label><br>
+  <input type="text" id="FirstName" name="FirstName" value=""><br>
+
+  <label for="descrID">Last Name:</label><br>
+  <input type="text" id="LastName" name="LastName" value=""><br>
+
+  <input type="submit" value="Insert Student">
+</form>
+<br><br>
+
+{{if .}}
+  <h2>{{.}}</h2>
+{{end}}
+<br>
+<a href="/">Browse Students</a>
+</body>
+</html>

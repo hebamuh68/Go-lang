@@ -1,0 +1,52 @@
+package main
+
+import (
+	"database/sql"
+	"fmt"
+
+	_ "github.com/go-sql-driver/mysql"
+)
+
+func main() {
+
+	db, err := sql.Open("mysql", "heba:heba333@tcp(localhost:3306)/testdb")
+    if err != nil {
+        fmt.Printf("error")
+    }
+    defer db.Close()
+
+    err = db.Ping()
+	if err != nil {
+		fmt.Println("error verifying connection with db.Ping")
+		panic(err.Error())
+	}
+
+
+    /* insert, err := db.Query("INSERT INTO `testdb`.`students` (`id`, `firstname`, `lastname`) VALUES ('4', 'salah', 'abdo');")
+	if err != nil {
+		panic(err.Error())
+	}
+	defer insert.Close()
+
+	fmt.Println("Successful Connection to Database!") */
+
+    entry, err := db.Query("select * from `testdb` . `students`;")
+	if err != nil {
+		panic(err.Error())
+	}
+	defer entry.Close()
+
+    for entry.Next(){
+        var id int
+        var firstname string
+        var lastname string
+
+        if err := entry.Scan(&id, &firstname, &lastname); err != nil{
+            fmt.Println("error")
+        }
+        fmt.Printf("ID: %d, First Name: %s, Last Name: %s\n", id, firstname, lastname)
+    }
+
+}
+
+
