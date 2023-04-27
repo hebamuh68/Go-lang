@@ -8,6 +8,8 @@
 - COURSE 2) Functions, Methods, and Interfaces in Go
 - COURSE 3) Concurrency in Go
 
+![image](https://user-images.githubusercontent.com/69214737/234948254-86964b9a-6351-4758-94ea-3df29e7a62b9.png)
+
 ### Project: 
 - Google file system
 - Command Line Interface (CLI) With Golang From Infosys
