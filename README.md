@@ -1,6 +1,7 @@
 
 ![splash-reddsera-specialization-google-golang](https://user-images.githubusercontent.com/69214737/226206156-fce8b097-6aa8-4d35-bd9f-2b40ecfeba78.png)
 
+![image](https://user-images.githubusercontent.com/69214737/234948254-86964b9a-6351-4758-94ea-3df29e7a62b9.png)
 
 ### Programming-with-Google-Go-Specialization
 
@@ -8,7 +9,6 @@
 - COURSE 2) Functions, Methods, and Interfaces in Go
 - COURSE 3) Concurrency in Go
 
-![image](https://user-images.githubusercontent.com/69214737/234948254-86964b9a-6351-4758-94ea-3df29e7a62b9.png)
 
 ### Project: 
 - Google file system
